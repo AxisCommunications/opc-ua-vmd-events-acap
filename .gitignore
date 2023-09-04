@@ -1,2 +1,4 @@
 *.eap
 *LICENSE.txt
+*.log
+.DS_Store

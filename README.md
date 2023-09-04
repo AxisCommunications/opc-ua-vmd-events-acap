@@ -1,6 +1,21 @@
-*Copyright (C) 2023, Axis Communications AB, Lund, Sweden. All Rights Reserved.*
+*©2023 Axis Communications AB. AXIS COMMUNICATIONS, AXIS, ARTPEC and VAPIX are registered trademarks of Axis AB in various jurisdictions. All other trademarks are the property of their respective owners.*
 
+<!-- omit from toc -->
+## Table of contents
+
+- [Overview](#overview)
+- [Supported Events](#supported-events)
+- [ACAP architecture](#acap-architecture)
+- [Usage](#usage)
+- [Build](#build)
+    - [Using the native ACAP SDK](#using-the-native-acap-sdk)
+    - [Using Docker and the ACAP SDK container](#using-docker-and-the-acap-sdk-container)
+- [License](#license)
+
+<!-- omit from toc -->
 # OPC UA VMD Events ACAP
+
+## Overview
 
 This repository contains the source code to build a small [ACAP version 3](https://help.axis.com/acap-3-developer-guide) application that exposes
 [AXEvent](https://www.axis.com/techsup/developer_doc/acap3/3.5/api/axevent/html/index.html) compatible scenario events (alarm status)
@@ -21,7 +36,7 @@ The ACAP's backend can subscribe to the following ACAPs:
 
 ## ACAP architecture
 
-![acap architecture](images/architecture.png)
+![acap architecture](assets/architecture.png)
 
 ## Usage
 
@@ -30,15 +45,15 @@ Requires any of the compatible video motion analytics ACAPs referenced above, to
 - create and enable a profile in the analytics ACAP ([VMD 4 profile example](https://help.axis.com/en-us/axis-video-motion-detection-4#how-to-work-with-profiles)).
 - Then, install and configure the `OPC UA VMD Events` ACAP to pick up the chosen analytics ACAP events.
 
-![Web UI Screenshot - acap](images/acap-new-ui.png)
-![Web UI Screenshot - acap settings](images/properties-new-ui.png)
+![Web UI Screenshot - acap](assets/acap-new-ui.png)
+![Web UI Screenshot - acap settings](assets/properties-new-ui.png)
 
 The exposed event profile names are of the following form: `CameraXProfileY` (i.e. `Camera1Profile1`, `Camera1Profile2`, etc.).
 The special event `CameraXProfileANY` will always fire alongside any other profile event firing.
 
 The OPC UA object view for a single analytics profile configured, looks like this:
 
-![OPC UA Client Screenshot - ua objects](images/opc-ua-exposed-objects.png)
+![OPC UA Client Screenshot - ua objects](assets/opc-ua-exposed-objects.png)
 
 The OPC UA Server port (default is 4840) can also be set through the ACAP's settings.
 
