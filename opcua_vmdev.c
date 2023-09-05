@@ -223,16 +223,15 @@ static gboolean signal_handler_init(void)
 
 int main(int argc, char **argv)
 {
-    int ret = 0;
-
-    if (!signal_handler_init())
-    {
-        ret = -1;
-        goto exit;
-    }
-
     char *app_name = basename(argv[0]);
     open_syslog(app_name);
+
+    int ret = EXIT_SUCCESS;
+    if (!signal_handler_init())
+    {
+        ret = EXIT_FAILURE;
+        goto exit_syslog;
+    }
 
     // Main loop
     main_loop = g_main_loop_new(NULL, FALSE);
@@ -242,8 +241,8 @@ int main(int argc, char **argv)
     if (NULL == ehandler)
     {
         LOG_E("%s/%s: Failed to setup axevent handler", __FILE__, __FUNCTION__);
-        ret = 1;
-        goto exit_ehandler;
+        ret = EXIT_FAILURE;
+        goto exit_syslog;
     }
 
     /*
@@ -254,7 +253,7 @@ int main(int argc, char **argv)
     if (!setup_params(app_name))
     {
         LOG_E("%s/%s: Failed to setup axparameters", __FILE__, __FUNCTION__);
-        ret = 1;
+        ret = EXIT_FAILURE;
         goto exit_param;
     }
 
@@ -268,7 +267,7 @@ int main(int argc, char **argv)
 exit_param:
     LOG_I("%s/%s: Free axparameter handler ...", __FILE__, __FUNCTION__);
     ax_parameter_free(axparameter);
-exit_ehandler:
+
     LOG_I("%s/%s: Unsubscribe from axevents ...", __FILE__, __FUNCTION__);
     axevent_teardown(ehandler);
     ax_event_handler_free(ehandler);
@@ -278,9 +277,9 @@ exit_ehandler:
 
     LOG_I("%s/%s: Unreference main loop ...", __FILE__, __FUNCTION__);
     g_main_loop_unref(main_loop);
-
+exit_syslog:
     LOG_I("%s/%s: Closing syslog ...", __FILE__, __FUNCTION__);
     close_syslog();
-exit:
+
     return ret;
 }
