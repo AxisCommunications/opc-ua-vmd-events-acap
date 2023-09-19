@@ -21,7 +21,7 @@ This repository contains the source code to build a small [ACAP version 3](https
 [AXEvent](https://www.axis.com/techsup/developer_doc/acap3/3.5/api/axevent/html/index.html) compatible scenario events (alarm status)
 through [OPC UA](https://en.wikipedia.org/wiki/OPC_Unified_Architecture) ([open62541](https://open62541.org/)).
 
-*Please note that even if this ACAP would fit right into your usecase, its
+*Please note that even if this ACAP would fit right into your use case, its
 purpose is above all to serve as an example and boilerplate rather than being
 ready for production.*
 
