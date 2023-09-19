@@ -27,7 +27,7 @@ ready for production.*
 
 ## Supported Events
 
-The ACAP's backend can subscribe to the following ACAPs:
+The ACAP applications's backend can subscribe to the following ACAP applications:
 
 - [Axis Fence Guard](https://www.axis.com/products/axis-fence-guard)
 - [Axis Loitering Guard](https://www.axis.com/products/axis-loitering-guard)
@@ -40,7 +40,7 @@ The ACAP's backend can subscribe to the following ACAPs:
 
 ## Usage
 
-Requires any of the compatible video motion analytics ACAPs referenced above, to be available on the device.
+Requires any of the compatible video motion analytics ACAP applications referenced above, to be available on the device.
 
 - create and enable a profile in the analytics ACAP ([VMD 4 profile example](https://help.axis.com/en-us/axis-video-motion-detection-4#how-to-work-with-profiles)).
 - Then, install and configure the `OPC UA VMD Events` ACAP to pick up the chosen analytics ACAP events.
