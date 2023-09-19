@@ -17,7 +17,7 @@
             "paramConfig": [
                 {"name": "port", "type": "int:min=1024,max=65535", "default": "4840"},
                 {"name": "eventsource",
-                   "type": "enum:FenceGuard|Axis Fence Guard,LoiteringGuard|Axis Loitering Guard,MotionGuard|Axis Motion Guard,VMD|Axis Video Motion Detection 4",
+                   "type": "enum:FenceGuard|AXIS Fence Guard,LoiteringGuard|AXIS Loitering Guard,MotionGuard|AXIS Motion Guard,VMD|AXIS Video Motion Detection 4",
                    "default": "VMD"
                 }
             ]

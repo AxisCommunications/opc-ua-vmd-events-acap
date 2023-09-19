@@ -29,9 +29,9 @@ ready for production.*
 
 The ACAP applications's backend can subscribe to the following ACAP applications:
 
-- [Axis Fence Guard](https://www.axis.com/products/axis-fence-guard)
-- [Axis Loitering Guard](https://www.axis.com/products/axis-loitering-guard)
-- [Axis Motion Guard](https://www.axis.com/products/axis-motion-guard)
+- [AXIS Fence Guard](https://www.axis.com/products/axis-fence-guard)
+- [AXIS Loitering Guard](https://www.axis.com/products/axis-loitering-guard)
+- [AXIS Motion Guard](https://www.axis.com/products/axis-motion-guard)
 - [AXIS Video Motion Detection (VMD) 4](https://www.axis.com/products/axis-video-motion-detection)
 
 ## ACAP architecture
