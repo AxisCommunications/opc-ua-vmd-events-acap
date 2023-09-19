@@ -42,8 +42,7 @@ The ACAP applications's backend can subscribe to the following ACAP applications
 
 Requires any of the compatible video motion analytics ACAP applications referenced above, to be available on the device.
 
-- create and enable a profile in the analytics ACAP ([VMD 4 profile example](https://help.axis.com/en-us/axis-video-motion-detection-4#how-to-work-with-profiles)).
-- Then, install and configure the `OPC UA VMD Events` ACAP to pick up the chosen analytics ACAP events.
+Create and enable a profile in the analytics ACAP ([VMD 4 profile example](https://help.axis.com/en-us/axis-video-motion-detection-4#how-to-work-with-profiles)). Then, install and configure the `OPC UA VMD Events` ACAP to pick up the chosen analytics ACAP events.
 
 ![Web UI Screenshot - acap](assets/acap-new-ui.png)
 ![Web UI Screenshot - acap settings](assets/properties-new-ui.png)
