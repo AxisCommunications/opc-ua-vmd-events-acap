@@ -4,7 +4,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-- [Supported Events](#supported-events)
+- [Supported events](#supported-events)
 - [ACAP architecture](#acap-architecture)
 - [Usage](#usage)
 - [Build](#build)
@@ -25,7 +25,7 @@ through [OPC UA](https://en.wikipedia.org/wiki/OPC_Unified_Architecture) ([open6
 purpose is above all to serve as an example and boilerplate rather than being
 ready for production.*
 
-## Supported Events
+## Supported events
 
 The ACAP applications's backend can subscribe to the following ACAP applications:
 
