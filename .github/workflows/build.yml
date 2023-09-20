@@ -1,11 +1,13 @@
 ---
 name: Build
 
-on: push
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   build_acap:
-    name: Build ACAPs
+    name: Build ACAP applications
     runs-on: ubuntu-latest
     env:
       DEBIAN_FRONTEND: noninteractive

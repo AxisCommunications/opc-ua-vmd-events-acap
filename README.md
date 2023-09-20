@@ -4,7 +4,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-- [Supported Events](#supported-events)
+- [Supported events](#supported-events)
 - [ACAP architecture](#acap-architecture)
 - [Usage](#usage)
 - [Build](#build)
@@ -21,17 +21,18 @@ This repository contains the source code to build a small [ACAP version 3](https
 [AXEvent](https://www.axis.com/techsup/developer_doc/acap3/3.5/api/axevent/html/index.html) compatible scenario events (alarm status)
 through [OPC UA](https://en.wikipedia.org/wiki/OPC_Unified_Architecture) ([open62541](https://open62541.org/)).
 
-*Please note that even if this ACAP would fit right into your usecase, its
-purpose is above all to serve as an example and boilerplate rather than being
-ready for production.*
+> [!NOTE]
+> Please note that even if this ACAP would fit right into your use case, its
+> purpose is above all to serve as an example and boilerplate rather than being
+> ready for production.
 
-## Supported Events
+## Supported events
 
-The ACAP's backend can subscribe to the following ACAPs:
+The ACAP application's backend can subscribe to the following ACAP applications:
 
-- [Axis Fence Guard](https://www.axis.com/products/axis-fence-guard)
-- [Axis Loitering Guard](https://www.axis.com/products/axis-loitering-guard)
-- [Axis Motion Guard](https://www.axis.com/products/axis-motion-guard)
+- [AXIS Fence Guard](https://www.axis.com/products/axis-fence-guard)
+- [AXIS Loitering Guard](https://www.axis.com/products/axis-loitering-guard)
+- [AXIS Motion Guard](https://www.axis.com/products/axis-motion-guard)
 - [AXIS Video Motion Detection (VMD) 4](https://www.axis.com/products/axis-video-motion-detection)
 
 ## ACAP architecture
@@ -40,10 +41,9 @@ The ACAP's backend can subscribe to the following ACAPs:
 
 ## Usage
 
-Requires any of the compatible video motion analytics ACAPs referenced above, to be available on the device.
+Requires any of the compatible video motion analytics ACAP applications referenced above, to be available on the device.
 
-- create and enable a profile in the analytics ACAP ([VMD 4 profile example](https://help.axis.com/en-us/axis-video-motion-detection-4#how-to-work-with-profiles)).
-- Then, install and configure the `OPC UA VMD Events` ACAP to pick up the chosen analytics ACAP events.
+Create and enable a profile in the analytics ACAP ([VMD 4 profile example](https://help.axis.com/en-us/axis-video-motion-detection-4#how-to-work-with-profiles)). Then, install and configure the `OPC UA VMD Events` ACAP to pick up the chosen analytics ACAP events.
 
 ![Web UI Screenshot - acap](assets/acap-new-ui.png)
 ![Web UI Screenshot - acap settings](assets/properties-new-ui.png)
