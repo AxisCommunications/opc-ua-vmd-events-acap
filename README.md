@@ -27,7 +27,7 @@ ready for production.*
 
 ## Supported events
 
-The ACAP applications's backend can subscribe to the following ACAP applications:
+The ACAP application's backend can subscribe to the following ACAP applications:
 
 - [AXIS Fence Guard](https://www.axis.com/products/axis-fence-guard)
 - [AXIS Loitering Guard](https://www.axis.com/products/axis-loitering-guard)
