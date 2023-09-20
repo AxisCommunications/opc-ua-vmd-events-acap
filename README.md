@@ -1,6 +1,9 @@
 *©2023 Axis Communications AB. AXIS COMMUNICATIONS, AXIS, ARTPEC and VAPIX are registered trademarks of Axis AB in various jurisdictions. All other trademarks are the property of their respective owners.*
 
 <!-- omit from toc -->
+# OPC UA VMD Events ACAP
+
+<!-- omit from toc -->
 ## Table of contents
 
 - [Overview](#overview)
@@ -11,9 +14,6 @@
     - [Using the native ACAP SDK](#using-the-native-acap-sdk)
     - [Using Docker and the ACAP SDK container](#using-docker-and-the-acap-sdk-container)
 - [License](#license)
-
-<!-- omit from toc -->
-# OPC UA VMD Events ACAP
 
 ## Overview
 
