@@ -9,5 +9,10 @@
     "https://json.schemastore.org/github-workflow": [
       "/.github/workflows/*"
     ]
-  }
+  },
+  "cSpell.words": [
+    "ACAP",
+    "ARTPEC",
+    "VAPIX"
+  ]
 }
