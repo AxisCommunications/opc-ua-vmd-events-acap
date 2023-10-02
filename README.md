@@ -41,7 +41,7 @@ The ACAP application's backend can subscribe to the following ACAP applications:
 > The following examples assume that you have a [SCADA](https://en.wikipedia.org/wiki/SCADA) (Supervisory
 Control And Data Acquisition) system or a [PLC](https://en.wikipedia.org/wiki/Programmable_logic_controller) (Programmable Logic Controller) system with OPC UA as the communication protocol and you want to take advantage of the AXIS device capabilities to enrich or complement your operations.
 
-With AXIS Fence Guard you can monitor objects/persons crossing a line (virtual fence) with a predefined direction and get an actionable event in your SCADA/PLC.
+With **AXIS Fence Guard** you can monitor objects/persons crossing a line (virtual fence) with a predefined direction and get an actionable event in your SCADA/PLC.
 
 For example:
 
@@ -49,7 +49,7 @@ For example:
 - shutdown or start a PLC process if a person enters an area through a predefined and barred entry point, like approaching the hot side of an exhaust system
 - count objects that move in opposite directions (incoming/outgoing) and graph their totals in a SCADA Screen
 
-With AXIS Video Motion Detection or AXIS Motion Guard, you can monitor motion (or absence of motion) in a predefined area and and get an actionable event in your SCADA/PLC.
+With **AXIS Video Motion Detection** or **AXIS Motion Guard**, you can monitor motion (or absence of motion) in a predefined area and and get an actionable event in your SCADA/PLC.
 
 For example:
 
@@ -59,7 +59,7 @@ For example:
 - get a SCADA alarm if a monitored item starts (or stops) spewing liquid, like a liquid overflow outlet
 - get a SCADA alarm if an object is swaying too much, like a tree close to a power line on a windy day
 
-With AXIS Loitering Guard you can also monitor if a person has exceeded some predefined time being present in an area and thus, get an alarm in your SCADA/PLC.
+With **AXIS Loitering Guard** you can also monitor if a person has exceeded some predefined time being present in an area and thus, get an alarm in your SCADA/PLC.
 
 > [!NOTE]
 > Please note that any analytic process may produce false positives or negatives and the system designer has to account for those occurrences.
@@ -72,7 +72,7 @@ With AXIS Loitering Guard you can also monitor if a person has exceeded some pre
 
 Requires any of the compatible video motion analytics ACAP applications referenced above, to be available on the device.
 
-Create and enable a profile in the analytics ACAP ([VMD 4 profile example](https://help.axis.com/en-us/axis-video-motion-detection-4#how-to-work-with-profiles)). Then, install and configure the `OPC UA VMD Events` ACAP to pick up the chosen analytics ACAP events.
+Create and enable a profile in the analytics ACAP ([VMD 4 profile example](https://help.axis.com/en-us/axis-video-motion-detection-4#how-to-work-with-profiles)). Then, install and configure the **OPC UA VMD Events** ACAP to pick up the chosen analytics ACAP events.
 
 ![Web UI Screenshot - acap](assets/acap-new-ui.png)
 ![Web UI Screenshot - acap settings](assets/properties-new-ui.png)
