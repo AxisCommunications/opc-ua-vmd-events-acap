@@ -61,7 +61,7 @@ For example:
 
 With **AXIS Loitering Guard** you can also monitor if a person has exceeded some predefined time being present in an area and thus, get an alarm in your SCADA/PLC.
 
-> [!NOTE]
+> [!WARNING]
 > Please note that any analytic process may produce false positives or negatives and the system designer has to account for those occurrences.
 
 ## ACAP architecture
