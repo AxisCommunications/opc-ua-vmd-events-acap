@@ -55,13 +55,14 @@ For example:
 
 - get a SCADA alarm every time an object moves within a specific part of the area, like objects falling off the conveyor belt on the wrong side
 - shutdown or start a PLC process if a person enters (or leaves) a predefined area, like a truck loading/unloading platform
-- raise an alarm if a machine with moving parts, like a conveyor belt or a motor, stops (or starts) working
-- raise an alarm if a monitored item starts (or stops) spewing liquid, like a liquid overflow outlet
-- raise an alarm if an object is swaying too much, like a tree close to a power line on a windy day
+- get a SCADA alarm if a machine with moving parts, like a conveyor belt or a motor, stops (or starts) working
+- get a SCADA alarm if a monitored item starts (or stops) spewing liquid, like a liquid overflow outlet
+- get a SCADA alarm if an object is swaying too much, like a tree close to a power line on a windy day
 
 With AXIS Loitering Guard you can also monitor if a person has exceeded some predefined time being present in an area and thus, get an alarm in your SCADA/PLC.
 
-> [!NOTE] Please note that any analytic process may produce false positives or negatives and the system designer has to account for those occurrences.
+> [!NOTE]
+> Please note that any analytic process may produce false positives or negatives and the system designer has to account for those occurrences.
 
 ## ACAP architecture
 
