@@ -12,8 +12,8 @@
 - [ACAP architecture](#acap-architecture)
 - [Usage](#usage)
 - [Build](#build)
-    - [Using the native ACAP SDK](#using-the-native-acap-sdk)
-    - [Using Docker and the ACAP SDK container](#using-docker-and-the-acap-sdk-container)
+  - [Using the native ACAP SDK](#using-the-native-acap-sdk)
+  - [Using Docker and the ACAP SDK container](#using-docker-and-the-acap-sdk-container)
 - [License](#license)
 
 ## Overview

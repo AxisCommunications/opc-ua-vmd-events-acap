@@ -15,17 +15,17 @@ All types of contributions are encouraged and valued. See the [Table of contents
 
 - [I have a question](#i-have-a-question)
 - [I want to contribute](#i-want-to-contribute)
-    - [Reporting bugs](#reporting-bugs)
-        - [Before submitting a bug report](#before-submitting-a-bug-report)
-        - [How do I submit a good bug report?](#how-do-i-submit-a-good-bug-report)
-    - [Suggesting enhancements](#suggesting-enhancements)
-        - [Before Submitting an Enhancement](#before-submitting-an-enhancement)
-        - [How do I submit a good enhancement suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
-    - [Your first code contribution](#your-first-code-contribution)
-        - [Lint of codebase](#lint-of-codebase)
-            - [Linters in GitHub Action](#linters-in-github-action)
-            - [Run super-linter locally](#run-super-linter-locally)
-        - [Pull request checklist](#pull-request-checklist)
+  - [Reporting bugs](#reporting-bugs)
+    - [Before submitting a bug report](#before-submitting-a-bug-report)
+    - [How do I submit a good bug report?](#how-do-i-submit-a-good-bug-report)
+  - [Suggesting enhancements](#suggesting-enhancements)
+    - [Before Submitting an Enhancement](#before-submitting-an-enhancement)
+    - [How do I submit a good enhancement suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
+  - [Your first code contribution](#your-first-code-contribution)
+    - [Lint of codebase](#lint-of-codebase)
+      - [Linters in GitHub Action](#linters-in-github-action)
+      - [Run super-linter locally](#run-super-linter-locally)
+    - [Pull request checklist](#pull-request-checklist)
 
 ## I have a question
 
@@ -52,13 +52,13 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 - To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker][issues_bugs].
 - Also make sure to search the internet to see if users outside of the GitHub community have discussed the issue.
 - Collect information about the bug:
-    - Axis device model
-    - Axis device firmware version
-    - Stack trace
-    - OS and version (Windows, Linux, macOS, x86, ARM)
-    - Version of the interpreter, compiler, SDK, runtime environment, package manager, depending on what seems relevant
-    - Possibly your input and the output
-    - Can you reliably reproduce the issue? And can you also reproduce it with older versions?
+  - Axis device model
+  - Axis device firmware version
+  - Stack trace
+  - OS and version (Windows, Linux, macOS, x86, ARM)
+  - Version of the interpreter, compiler, SDK, runtime environment, package manager, depending on what seems relevant
+  - Possibly your input and the output
+  - Can you reliably reproduce the issue? And can you also reproduce it with older versions?
 
 #### How do I submit a good bug report?
 
