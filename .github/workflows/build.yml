@@ -15,7 +15,7 @@ jobs:
     env:
       DEBIAN_FRONTEND: noninteractive
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
       # Test all Makefile targets and make sure the ACAP files are created
       - name: Build
         run: make -j dockerbuild
