@@ -22,7 +22,7 @@
         },
         {
           "name": "eventsource",
-          "type": "enum:FenceGuard|AXIS Fence Guard,LoiteringGuard|AXIS Loitering Guard,MotionGuard|AXIS Motion Guard,VMD|AXIS Video Motion Detection 4",
+          "type": "enum:FenceGuard|AXIS Fence Guard,LoiteringGuard|AXIS Loitering Guard,MotionGuard|AXIS Motion Guard,VMD|AXIS Video Motion Detection 4,ObjectAnalytics|AXIS Object Analytics",
           "default": "VMD"
         }
       ]
