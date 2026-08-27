@@ -35,6 +35,7 @@ The ACAP application's backend can subscribe to the following ACAP applications:
 - [AXIS Loitering Guard](https://www.axis.com/products/axis-loitering-guard)
 - [AXIS Motion Guard](https://www.axis.com/products/axis-motion-guard)
 - [AXIS Video Motion Detection (VMD) 4](https://www.axis.com/products/axis-video-motion-detection)
+- [AXIS Object Analytics](https://www.axis.com/products/axis-object-analytics)
 
 ## Example Use Cases
 
