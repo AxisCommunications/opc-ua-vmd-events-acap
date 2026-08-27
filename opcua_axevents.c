@@ -46,6 +46,12 @@
  * <MESSAGE > [tnsaxis:topic0 = 'CameraApplicationPlatform']
  * <MESSAGE > [active = '1'] {onvif-data} {property-state}
  *
+ * - Example AXEVENT for Object Analytics - Any Scenario
+ * <MESSAGE > [tnsaxis:topic0 = 'CameraApplicationPlatform']
+ * <MESSAGE > [tnsaxis:topic1 (ObjectAnalytics) = 'ObjectAnalytics' (AXIS Object Analytics)]
+ * <MESSAGE > [tnsaxis:topic2 (Device1ScenarioANY) = 'Device1ScenarioANY' (Object Analytics: Any Scenario)]
+ * <MESSAGE > [active = '1'] {onvif-data} {property-state}
+ *
  */
 #define AXEV_CTX_DISCOVERY "axevents-discovery"
 #define AXEV_TNSAXIS_TOPIC0 "CameraApplicationPlatform"
